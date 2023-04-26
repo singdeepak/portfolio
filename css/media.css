@@ -1,0 +1,69 @@
+@media only screen and (max-width: 768px){
+	nav ul{
+		flex-direction: column;
+	}
+
+	header{
+		position: static !important;
+	}
+
+
+	.about .user{
+		flex-direction: column;
+	}
+
+
+	.userdetails{
+		width: 80% !important;
+	}
+
+
+	.userproject{
+		flex-direction: column;
+	}
+
+
+	.userproject .item{
+		margin: 0.5rem !important;
+		padding: 1rem !important;
+		width: 100%;
+		text-align: center;
+	}
+
+
+
+	.education .wrapper{
+		flex-direction: column;
+	}
+
+
+	.portfolio .wrapper{
+		flex-direction: column;
+	}
+
+
+	.banner .user .username{
+		font-size: 1.5rem !important;
+		padding: 0.3rem;
+	}
+
+
+	.banner .user .designation, .skill{
+		font-size: 0.7rem !important;
+		padding: 0 5rem 0 0.3rem;
+	}
+
+	.banner .user{
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+
+
+	.banner .user .resume-btn i{
+		font-size: 0.7rem;
+	}
+
+	.title{
+		font-size: 2rem !important;
+	}
+}
